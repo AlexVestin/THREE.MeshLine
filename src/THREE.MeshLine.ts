@@ -724,6 +724,8 @@ export class MeshLine extends BufferGeometry {
   public setGeometry(g: GeometryType, c?: (v: number) => number) {
     // as the input geometry are mutated we store them
     // for later retreival when necessary (declaritive architectures)
+    this._geom = g;
+
     if (g instanceof Geometry) {
       this.setPoints(g.vertices, c);
     } else if (g instanceof BufferGeometry) {
