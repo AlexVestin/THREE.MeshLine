@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/spite/THREE.MeshLine/issues"
   },
-  "homepage": "https://github.com/spite/THREE.MeshLine#readme"
+  "homepage": "https://github.com/spite/THREE.MeshLine#readme",
+  "dependencies": {
+    "three": "^0.121.1"
+  }
 }
